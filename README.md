@@ -35,3 +35,5 @@ public class Exercise5 {
         System.out.println("a = " + a + ", raised to power " + b + ", gives us " + power_result);
     }
 }
+
+#izmaiņas
