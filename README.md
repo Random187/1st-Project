@@ -3,7 +3,7 @@
 import random
 import time
 
-# Initial Steps to invite in the game:
+
 print("\nEsiet sveicināti 'Karātavu' spēlē\n")
 name = input("Ievadiet savu vārdu: ")
 print("Sveiks " + name + "! Vēlam veiskmi!")
@@ -12,7 +12,7 @@ print("Spēle sākas!\nSākam spēli 'Karātavas'!\nJums ir jāuzmin nejauši iz
 time.sleep(3)
 
 
-# The parameters we require to execute the game:
+
 def main():
     global count
     global display
@@ -28,7 +28,7 @@ def main():
     already_guessed = []
     play_game = ""
 
-# A loop to re-execute the game when the first round ends:
+
 
 def play_loop():
     global play_game
@@ -41,7 +41,7 @@ def play_loop():
         print("Paldies par piedalīšanos! Gaidīsim Jūs atkal!")
         exit()
 
-# Initializing all the conditions required for the game:
+
 def hangman():
     global count
     global display
